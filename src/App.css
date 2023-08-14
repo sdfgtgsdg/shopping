@@ -1,7 +1,7 @@
-.App .main-banner{
-  height: 300px;
-  
-  background-size: cover;
-  background-position: center;
-}
 
+.App{
+  height: 926px;
+  width: 428px;
+  position: relative;
+  
+}

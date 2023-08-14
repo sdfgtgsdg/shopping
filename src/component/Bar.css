@@ -1,0 +1,38 @@
+.Bar {
+width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  
+  
+}
+
+
+.Bar-icon {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+
+.menu {
+  text-align: center;
+  font-size: 11px;
+  color: black;
+  padding-top: 2px;
+  bottom: 0px;
+  }
+  
+
+.menu-icon {
+bottom: 20px;
+height: 29x;
+border-style: none;
+background-color: white;
+
+}
+
+
+.menu-icon img{
+  height: 29px;
+  }
+  

@@ -1,50 +1,23 @@
-const Main = ({Product}) => {
-  const [viewSaleCount, setViewSaleCount] = useState(7);
-  let viewSaleProduct = SaleProduct.slice(0, viewCount);
+import { useState } from "react";
+import './Main.css';
+import saled from "../redux/saledSlice";
+import Sale from "./Sale";
 
-  const [viewCount, setViewCategory] = useState(7);
-  let viewCategory = Category.slice(0, viewCategory);
-
-
-  const [viewRecentCount, setViewRecentCount] = useState(12);
-  let viewRecentProduct = RecentProduct.slice(0, viewRecentCount);
-
+const Main = () => {
+  
   return (
     <>
-    <div className='main-banner'>
-    <img src={'../img/vege.jpg'} />
+    <div className="main-banner">
+      <img src={process.env.PUBLIC_URL + '/img/vege.jpg'} />
+       
     </div>
-
-    <div className="container sale">
-        {
-          viewSaleProduct.map((data, i)=> {
-            return (
-              <Cart data={data} key={i}/>
-            );
-          })
-        }
-      </div>
-
-      <div className="container category">
-        {
-          viewSaleProduct.map((data, i)=> {
-            return (
-              <Cart data={data} key={i}/>
-            );
-          })
-        }
-      </div>
-   
-      <div className="container recentproduct">
-        {
-          viewSaleProduct.map((data, i)=> {
-            return (
-              <Cart data={data} key={i}/>
-            );
-          })
-        }
-      </div>
-
+    <h5>반짝 타임 세일!</h5>
+    <div className="saleList">
+    <Sale className="sale" saled={saled} />
+    <button class="pre">
+<img src={process.env.PUBLIC_URL + '/img/pre.png'} />
+</button>
+</div>
     </>
   );
 

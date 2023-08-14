@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import { useEffect, useState } from 'react';
 import './App.css';
-import { useState } from 'react';
 import Bar from './component/Bar';
+import Main from './component/Main';
+import { Route, Routes } from 'react-router-dom';
 
-
-
-// const Detail = lazy(()=>import('./component/Detail'));
-// const ProductList = lazy(()=>import('./component/ProductList'));
-// const Cart = lazy(()=>import('./component/Cart'));
 
 function App() {
-  const [saleProduct, setSaleProduct ] = useState([]);
-
-
+  const [product, setProduct] = useState([]);
 
 
   return (
     <div className="App">
-       <Bar />
+      <Routes>
+        <Route path='/' element={<Main />} />
+      </Routes>
+
+      <Bar />
     </div>
   );
 }
 
 export default App;
+

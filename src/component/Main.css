@@ -1,0 +1,37 @@
+.main-banner {
+  
+  width: 428px; 
+  height: 200px;
+  background-position: center;
+  overflow: hidden;
+}
+
+.main-banner img{
+width: 100%;
+
+}
+
+.saleList{
+  position : relative;
+  width: 150vw;
+  transition: 1s;
+}
+
+
+.pre {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-2vw);
+  margin-left: 20px;
+  border-style: none;
+  background-color: rgba(100, 100, 100, 0);
+  height: 35px;
+}
+
+.pre img{
+  border-style: none;
+  height: 35px;
+}
+
+
+
