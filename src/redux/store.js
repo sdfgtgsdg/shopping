@@ -1,5 +1,6 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 import sliced from "./saledSlice";
+import menuItem from "./menuSlice";
 
 
 
@@ -66,8 +67,10 @@ const saledItem = createSlice({
 })
 
 export const {setSaled} = saledItem.actions;
+
 export default configureStore({
   reducer: {
     saledItem: saledItem.reducer,
+    menuItem: menuItem.reducer
   },
 }) ;

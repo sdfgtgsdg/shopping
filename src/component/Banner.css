@@ -1,0 +1,33 @@
+.main-banner {
+  width: 428px; 
+  height: 200px;
+  overflow: hidden;
+  justify-content: center;
+  position: relative
+  
+}
+
+.main-banner img {
+  width: 428px; 
+  align-items: center;
+  
+}
+
+p{
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, .2);
+  font-size: 25px;
+  top: 40%;
+  left: 5%;
+}
+
+.p2{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  top: 65%;
+  left: 6%;
+}
+
