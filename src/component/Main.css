@@ -1,12 +1,13 @@
-h5 {
+.timesale {
   font-weight: bold;
-  margin-top : 30px;
-  text-align: center;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+  color: rgb(49, 49, 49);
 }
 
 
-.main-banner {
-  
+.main-banner {  
   width: 428px; 
   height: 200px;
   background-position: center;
@@ -38,6 +39,17 @@ width: 100%;
 .pre img{
   border-style: none;
   height: 35px;
+}
+
+
+
+.buy{
+  font-weight: bold;
+  margin-top : 30px;
+  text-align: left;
+  margin-left: 25px;
+  font-size: 18px;
+  color: rgb(49, 49, 49);
 }
 
 
