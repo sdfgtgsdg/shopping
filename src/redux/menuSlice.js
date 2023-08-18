@@ -1,5 +1,4 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
-import sliced from "./saledSlice";
 
 
 
@@ -91,5 +90,3 @@ const menuItem = createSlice({
 
 export const {setMenu} = menuItem.actions;
 export default menuItem;
-
-

@@ -1,9 +1,10 @@
 .Bar {
 width: 100%;
-  position: absolute;
-  bottom: 0px;
+  position : fixed;
+  bottom : 0;
   height: 60px;
-  
+  width: 428px;
+  background-color: white;
   border-top: 1px solid lightgray;
   
 }
@@ -14,10 +15,10 @@ width: 100%;
 
 }
 
-.menu {
+.menuBar {
   text-align: center;
   font-size: 11px;
-  color: black;
+  
   padding-top: 2px;
   bottom: 0px;
   }
@@ -36,3 +37,8 @@ margin-top: 5px;
   height: 29px;
   }
   
+
+ .Bar-name{
+    font-size: 11px;
+    color: rgb(39, 39, 39);
+  }

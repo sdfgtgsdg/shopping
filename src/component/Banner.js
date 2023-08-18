@@ -15,7 +15,7 @@ function Banner() {
   const new2 = "/img/new2.png"
   
          return (
-          <>
+          <div className='Banner'>
           {/* <img className="newicon" src={new2}/>          */}
           <Carousel indicators={false} controls={false}
            carousel-control-prev-icon="false" 
@@ -24,32 +24,32 @@ function Banner() {
                
             <p>신선야채 기획전</p>  
             <p className="p2">08.17 - 08.23</p>  
-            <img src={vege}/>
+            <img src={process.env.PUBLIC_URL + vege}/>
             </Carousel.Item>
                      
             <Carousel.Item className="main-banner">
             
             <p>피자치즈 특가전!</p>  
             <p className="p2">마음껏 쟁여놓으세요!</p>  
-            <img src={cheese}/>
+            <img src={process.env.PUBLIC_URL + cheese}/>
             </Carousel.Item>
                     
             <Carousel.Item className="main-banner">
             
             <p>반찬 골라담기</p>  
             <p className="p2">갓 만든 반찬 바로 배송!</p>  
-            <img src={vege2}/>
+            <img src={process.env.PUBLIC_URL + vege2}/>
             </Carousel.Item>
 
             <Carousel.Item className="main-banner">
             
             <p>한돈 숙성 돼지고기</p>  
             <p className="p2">오늘 주문 내일 도착!</p>  
-            <img src={pork}/>
+            <img src={process.env.PUBLIC_URL + pork}/>
             </Carousel.Item>
 
           </Carousel>
-          </>
+          </div>
          );
        }
      // };

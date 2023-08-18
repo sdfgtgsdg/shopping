@@ -10,29 +10,29 @@ return (
   
   <div className="Bar">
 <Nav className="Bar-icon">
-  <div className="menu" >
-  <button class="menu-icon" type="button"  onClick={()=> {navigate('/main')}}>
+  <div className="menuBar" >
+  <button class="menu-icon" type="button"  onClick={()=> {navigate('/')}}>
   <img src={process.env.PUBLIC_URL + '/img/home.png'} />
   </button>
-  <p>홈</p>
+  <p className="Bar-name" >홈</p>
   </div>
-  <div className="menu" >
-  <button class="menu-icon" type="button"  onClick={()=> {navigate('/main')}}>
+  <div className="menuBar" >
+  <button class="menu-icon" type="button"  onClick={()=> {navigate('/search')}}>
   <img src={process.env.PUBLIC_URL + '/img/search.png'} />
   </button>
-  <p>검색</p>
+  <p className="Bar-name" >검색</p>
   </div>
-  <div className="menu" >
-  <button class="menu-icon" type="button"  onClick={()=> {navigate('/main')}}>
+  <div className="menuBar" >
+  <button class="menu-icon" type="button"  onClick={()=> {navigate('/heart')}}>
   <img src={process.env.PUBLIC_URL + '/img/heart.png'} />
   </button>
-  <p>찜</p>
+  <p className="Bar-name" >찜</p>
   </div>
-  <div className="menu" >
-  <button class="menu-icon" type="button"  onClick={()=> {navigate('/main')}}>
+  <div className="menuBar" >
+  <button class="menu-icon" type="button"  onClick={()=> {navigate('/my')}}>
   <img src={process.env.PUBLIC_URL + '/img/my.png'} />
   </button>
-  <p>마이</p>
+  <p className="Bar-name" >마이</p>
   </div>
 </Nav>
 

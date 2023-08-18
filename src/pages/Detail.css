@@ -1,0 +1,7 @@
+.detail-page{
+  height: 800px;
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}

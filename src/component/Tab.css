@@ -1,0 +1,27 @@
+.list-button{
+  font-size: 12px;
+  width: 75px;  
+  height: 30px;
+  border-radius: 15px;
+  background-color: white;
+  border: .1px solid rgb(202, 202, 202);
+  color: rgb(155, 155, 155);
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+
+.vege-List {  
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left:35px;
+  margin-top: 20px;
+  width: 370px;
+}
+
+
+.vege-price{
+  font-weight: bold;
+  font-size: 14px;
+}

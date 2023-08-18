@@ -1,0 +1,33 @@
+.menuList {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;   
+  margin: auto;
+  row-gap: 10px;
+  margin-top: 25px;
+}
+
+
+.lists{ 
+ width: 100%;
+ text-align: center;
+ display: block;
+ margin: auto;
+}
+
+
+
+.menuList img{  
+  width: 75px;   
+  display: block;
+  margin: auto;
+}
+
+
+.list-name{
+  font-size: 12px;
+  
+}
+
+
+

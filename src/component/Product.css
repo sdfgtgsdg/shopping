@@ -2,17 +2,37 @@
   width: 150px; 
   height: 150px;
   overflow: hidden;
-  margin: 20px;
+  margin: 5px;
   display: flex;
-  justify-content: center;
-  
-  
+  position: relative;
+
 }
 
 
-.product img {
+
+.product-img {
   height: 150px; 
   align-items: center;
-  
+ 
 }
+
+
+
+.cart-img {
+  position: absolute;
+  width: 48px;
+  margin-left: 96px;
+  margin-top: 96px;
+}
+
+
+.heart-img{
+  position: absolute;
+  width: 48px;
+  margin-left: 4px;
+  margin-top: 97px;
+}
+
+
+
 
